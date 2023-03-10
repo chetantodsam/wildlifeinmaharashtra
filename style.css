@@ -1,0 +1,51 @@
+/* Set Vivaldi font for entire website */
+body {
+  font-family: 'Vivaldi', cursive;
+}
+
+/* Set background image for entire website */
+body {
+  background-image: url(images/pexels-photo-10924664.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Set title font size and color and center align */
+header h1 {
+  font-size: 3em;
+  color: #fff;
+  text-align: center;
+  margin-top: 0px;
+}
+
+/* Set menu bar font size, color, and center align */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a1cf0a;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  font-size: 1.8em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #057603;
+}
+
+/* Set paragraph font size and color */
+main p {
+  font-size: 3.8em;
+  color: #057603f;
+}
